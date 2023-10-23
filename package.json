@@ -1,0 +1,18 @@
+{
+  "name": "mc",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "generate:math": "ts-node-dev ./src/math/generate.ts"
+  },
+  "author": "Youness B.",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@types/node": "^18.15.11",
+    "parcel": "^2.8.3",
+    "ts-node-dev": "^2.0.0"
+  }
+}
